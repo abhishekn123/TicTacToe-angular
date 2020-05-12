@@ -1,0 +1,83 @@
+<div class="container">
+  <div class="w-50 mx-auto text-center" style="margin-top: 200px;">
+    <div class="row">
+      <div
+        class="col border-left-0 border-top-0 border border-danger border-right-0"
+        id="one"
+        (click)="playone('one')"
+        style="font-size: 50px; color: #764ba2; font-weight: 500;"
+      >
+        {{ one }}
+      </div>
+      <div
+        class="col border-top-0 border border-danger"
+        id="two"
+        (click)="playtwo('two')"
+        style="font-size: 50px; color: #e2d1c3; font-weight: 500;"
+      >
+        {{ two }}
+      </div>
+      <div
+        class="col border-top-0 border-right-0 border border-danger border-left-0"
+        id="three"
+        (click)="playthree('three')"
+        style="font-size: 50px; color: #80d0c7; font-weight: 500;"
+      >
+        {{ three }}
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col border-left-0 border border-success border-top-0 border-right-0 border-bottom-0"
+        id="four"
+        (click)="playfour('four')"
+        style="font-size: 50px; color: #ffafbd; font-weight: 500;"
+      >
+        {{ four }}
+      </div>
+      <div
+        class="col border border-success border-bottom-0 border-top-0"
+        id="five"
+        (click)="playfive('five')"
+        style="font-size: 50px; color: #f9c449; font-weight: 500;"
+      >
+        {{ five }}
+      </div>
+      <div
+        class="col border-right-0 border-0"
+        id="six"
+        (click)="playsix('six')"
+        style="font-size: 50px; color: #3c4cad; font-weight: 500;"
+      >
+        {{ six }}
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col border-bottom-0 border-left-0 broder border-warning border-top"
+        id="seven"
+        (click)="playseven('seven')"
+        style="font-size: 50px; color: #e8a49c; font-weight: 500;"
+      >
+        {{ seven }}
+      </div>
+      <div
+        class="col border-bottom-0 border border-warning"
+        id="eight"
+        (click)="playeight('eight')"
+        style="font-size: 50px; color: #7bd5f5; font-weight: 500;"
+      >
+        {{ eight }}
+      </div>
+      <div
+        class="col border-right-0 border-bottom-0 border border-warning border-left-0"
+        id="nine"
+        (click)="playnine('nine')"
+        style="font-size: 50px; color: #120c6e; font-weight: 500;"
+      >
+        {{ nine }}
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

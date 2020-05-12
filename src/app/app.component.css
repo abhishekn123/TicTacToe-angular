@@ -1,0 +1,7 @@
+.col {
+  cursor: pointer;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
